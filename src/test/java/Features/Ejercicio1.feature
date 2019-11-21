@@ -25,7 +25,7 @@ Feature: Primer ejercicio
       | Categoria| SubCategoria          |
       |Tecnología|Celulares y Smartphones|
 
-  @PrimerEjercicio @LleguenHoy
+  @PrimerEjercicio @LlegaHoy
   Scenario Outline: Verificar 'Lleguen hoy' de los primeros 5 resultados de la categoria y subcategoria
     Given Ingresar a la Web de MercadoLibre
     When Ingresar a la "<Categoria>" y a su "<SubCategoria>"
@@ -37,7 +37,7 @@ Feature: Primer ejercicio
       | Categoria| SubCategoria          |
       |Tecnología|Celulares y Smartphones|
 
-  @PrimerEjercicio @HerramientasEIndustria
+  @PrimerEjercicio @MayorPrecio
   Scenario Outline: Verificar precio del primer y ultimo resultado ordenando por Mayor Precio
     Given Ingresar a la Web de MercadoLibre
     When Ingresar a la "<Categoria>" y a su "<SubCategoria>"
