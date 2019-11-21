@@ -1,1 +1,1 @@
-# QueadMinds Ejercicio 1 y 2
+# QuadMinds Ejercicio 1 y 2
